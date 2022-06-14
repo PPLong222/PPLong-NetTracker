@@ -1,16 +1,16 @@
 # PPLong Net-Tacker
-
-<img src="https://img.shields.io/badge/Frame-@13.6.8-blue?logo=electron&label=Electron&logoColor=#47848F&labalColor=#1fd041&color=#2b56a1&link=https://www.electronjs.org">
-<img src="https://img.shields.io/badge/Frame-@5.3.2-blue?&label=echarts&labelColor=#5a5a5a&color=#e43961&link=https://www.electronjs.org">
-
-<div class="logo-panel" style="margin-top:10px;margin-bottom:10px">
+<div>
+<img src="https://img.shields.io/badge/Frame-@13.6.8-blue?logo=electron&label=Electron&logoColor=#47848F&labalColor=#1fd041&color=#2b56a1&link=https://www.electronjs.org" style="display:inline-block">
+<img src="https://img.shields.io/badge/Frame-@5.3.2-blue?&label=echarts&labelColor=#5a5a5a&color=#e43961&link=https://www.electronjs.org" style="display:inline-block">
+</div>
+<div class="logo-panel" style="margin-top:10px;margin-bottom:10px;">
     <a href="https://echarts.apache.org/" target="_blank" style="text-decoration: none;">
     	<img class="logo-normal-echart" src="./resources/logo.png" width="200">
     </a>
     <a href="https://www.electronjs.org/" target="_blank">
     	<span class="electron-logo" style="margin-left: 20px;text-decoration: none;">
             <img class="logo-normal-electron" width="48" src="./resources/electron.svg">
-            <img class="logo-normal-electron-text" src="./resources/electron-text.svg">
+            <img class="logo-normal-electron-text" src="./resources/electron-text.svg" style="margin-bottom:10px;">
     	</span>
     </a>
 </div>
