@@ -1,0 +1,250 @@
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(108 181 134 / 88%);
+    font-family: monospace;
+    font-size: 46px;
+}
+
+body {
+    background-color: #2f3241;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-panel {
+    margin: 40px auto;
+    width: 90%;
+    height: 500px;
+    border: 1px solid coral;
+    display: flex;
+}
+
+.logo-powerby-text{
+    color: #757373;
+    max-width: fit-content;
+    margin: 0px auto;
+    font-family: monospace;
+}
+.select-device-panel {
+    flex: 1;
+    margin: 10px;
+    border: 1px solid rgb(58, 136, 209);
+}
+
+.choice-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 10px;
+    border: 1px solid rgb(80, 170, 52);
+}
+
+.select-info {
+    margin: 10px auto;
+    width: 200px;
+    font-family: monospace;
+    font-size: 18px;
+    color: #9feaf9;
+}
+
+.select-device-scroll {
+    margin: 10px auto;
+    padding: 10px 10px 10px 10px;
+    overflow-y: scroll;
+    max-height: 80%;
+    width: 80%;
+    min-height: 40%;
+    background-color: rgb(99 99 111);
+}
+
+.radio-text {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.offline-catch-panel {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 1px solid rgb(80, 170, 52);
+    margin: 5px;
+}
+
+.additional-func-panel {
+    flex: 1;
+    border: 1px solid rgb(80, 170, 52);
+    margin: 5px;
+}
+
+.offline-catch-panel-left {
+    flex: 2;
+}
+
+.offline-catch-panel-right {
+    flex: 3;
+}
+
+.offline-catch-text {
+    font-size: 18px;
+    font-family: monospace;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: whitesmoke;
+}
+
+.offline-catch-count {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.offline-catch-size {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#ip-request-progress {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    width: 80%;
+    height: 30px;
+}
+
+
+/* CSS Button */
+
+#gen-ip-map-button {
+    align-items: center;
+    background-color: #a64ff5;
+    border: 0;
+    border-radius: 100px;
+    box-shadow: #a64ff5 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    /* vertical-align: middle; */
+    margin-top: 5%;
+    margin: 5% auto;
+}
+
+#gen-ip-map-button,
+#gen-ip-map-button:focus {
+    background-color: #a64ff5;
+    color: #ffffff;
+}
+
+#gen-ip-map-button:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+#gen-ip-map-button:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+
+/* CSS */
+
+#button-catch {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 12px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+#button-dump {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 12px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-left: 10%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#ip-request-progress-ratio {
+    margin: 0px auto;
+    font-family: monospace;
+    font-size: 16px;
+    max-width: 20px;
+    color: #9feaf9;
+
+}
+
+.logo-panel {
+    margin: 10px auto;
+    max-width: 450px;
+}
+
+.logo-normal-echart {
+    width: 176px;
+    height: 40px;
+}
+
+.logo-normal-electron{
+    width: 40px;
+    height: 40px;
+}
+.logo-normal-electron-text{
+    margin-left: 0.2em;
+    max-width: 180px;
+    height: 40px;
+}
+.electron-logo{
+    margin-left: 2.4em;
+}

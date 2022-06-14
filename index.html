@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <title>PPLong WebSniffer</title>
+    <link rel="stylesheet" type="text/css" href="./style/main.css">
+</head>
+
+<body>
+    <h1>PPLong WebSniffer</h1>
+    <div class="logo-powerby-text">Powered By</div>
+    <div class="logo-panel">
+        <a href="https://echarts.apache.org/" target="_blank">
+            <img class="logo-normal-echart" src="./resources/logo.png">
+        </a>
+        <a href="https://www.electronjs.org/" target="_blank">
+            <span class="electron-logo">
+            <img class="logo-normal-electron" src="./resources/electron.svg">
+            <img class="logo-normal-electron-text" src="./resources/electron-text.svg">
+            </span>
+        </a>
+    </div>
+
+    <div class="main-panel">
+        <div class="select-device-panel">
+            <div class="select-info">Select Your Net Device</div>
+            <div class="select-device-scroll" id="select-device-scroll"></div>
+        </div>
+        <div class="choice-panel">
+            <div class="offline-catch-panel">
+                <div class="offline-catch-panel-left">
+                    <button id="button-catch">Begin to cap</button>
+                    <button id="button-dump">Begin to Dump</button>
+                </div>
+                <div class="offline-catch-panel-right">
+                    <div class="offline-catch-text">Current Catching Packet Count : <span id="offline-catch-count"></span></div>
+                    <div class="offline-catch-text">Current Catching Raw Packet Size: <span id="offline-catch-size"></span></div>
+                </div>
+            </div>
+            <div class="additional-func-panel">
+                <button id="gen-ip-map-button">Generate IP Map</button>
+                <div>
+                    <progress id="ip-request-progress" value="0" max="100"></progress>
+                </div>
+                <div id="ip-request-progress-ratio">
+                    0%
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scripts/main.js"></script>
+
+</html>

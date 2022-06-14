@@ -1,0 +1,3 @@
+dist/
+/*.txt
+node_modules/

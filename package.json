@@ -1,0 +1,38 @@
+{
+  "name": "test-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "sudo electron . --no-sandbox",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rebuild": "electron-rebuild",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.6.8",
+    "electron-builder": "^23.0.3",
+    "electron-rebuild": "^3.2.7"
+  },
+  "dependencies": {
+    "cap": "^0.2.1",
+    "electron-sudo": "^4.0.12",
+    "node-gyp": "^9.0.0"
+  },
+  "build": {
+    "productName": "PPLong Sniffer",
+    "appId": "com.pplong",
+    "linux": {
+      "icon": "./build/512x512.jpg",
+      "desktop": {
+        "Icon": "./build/512x512.jpg"
+      },
+      "target": [
+        "AppImage"
+      ]
+    }
+  }
+}
