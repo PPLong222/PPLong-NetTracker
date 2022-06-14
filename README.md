@@ -3,47 +3,23 @@
 <img src="https://img.shields.io/badge/Frame-@13.6.8-blue?logo=electron&label=Electron&logoColor=#47848F&labalColor=#1fd041&color=#2b56a1&link=https://www.electronjs.org">
 <img src="https://img.shields.io/badge/Frame-@5.3.2-blue?&label=echarts&labelColor=#5a5a5a&color=#e43961&link=https://www.electronjs.org">
 
-<style>
-.logo-panel {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-width: 450px;
-}
-.logo-normal-echart {
-    width: 176px;
-    height: 40px;
-}
-.logo-normal-electron{
-    width: 32px;
-    height: 32px;
-}
-.logo-normal-electron-text{
-    margin-left: 0.2em;
-    max-width: 180px;
-    height: 40px;
-}
-.electron-logo{
-    margin-left: 2.4em;
-}
-</style>
-
-
-<div class="logo-panel">
-     <a href="https://echarts.apache.org/" target="_blank">
-     <img class="logo-normal-echart" src="./resources/logo.png">
-     </a>
-     <a href="https://www.electronjs.org/" target="_blank">
-     <span class="electron-logo">
-     <img class="logo-normal-electron" src="./resources/electron.svg">
-     <img class="logo-normal-electron-text" src="./resources/electron-text.svg">
-     </span>
-     </a>
+<div class="logo-panel" style="margin-top:10px;margin-bottom:10px">
+    <a href="https://echarts.apache.org/" target="_blank" style="text-decoration: none;">
+    	<img class="logo-normal-echart" src="./resources/logo.png" width="200">
+    </a>
+    <a href="https://www.electronjs.org/" target="_blank">
+    	<span class="electron-logo" style="margin-left: 20px;text-decoration: none;">
+            <img class="logo-normal-electron" width="48" src="./resources/electron.svg">
+            <img class="logo-normal-electron-text" src="./resources/electron-text.svg">
+    	</span>
+    </a>
 </div>
+<div class="aaa" height="50" width="50"></div>
 
 
 ## Introduce
 
-A Net-Tacker based on Electron which can capture all the net packets through specified NIC and generate IP Map optionally using echarts(currently supporting China nationwide).
+​	A Net-Tacker based on Electron which can capture all the net packets through specified NIC and generate IP Map optionally using echarts(currently supporting China nationwide).
 
 ![PPLong Net-Tracker version@1.0.0](https://s401177923-1302493622.cos.ap-nanjing.myqcloud.com/mdImages/image-20220614105259468.png)
 
