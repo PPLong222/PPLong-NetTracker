@@ -10,12 +10,10 @@
     <a href="https://www.electronjs.org/" target="_blank">
     	<span class="electron-logo" style="margin-left: 20px;text-decoration: none;">
             <img class="logo-normal-electron" width="48" src="./resources/electron.svg">
-            <img class="logo-normal-electron-text" src="./resources/electron-text.svg" style="margin-bottom:10px;">
+            <img class="logo-normal-electron-text" src="./resources/electron-text.svg" style="margin-bottom:10px;margin-left:10px">
     	</span>
     </a>
 </div>
-<div class="aaa" height="50" width="50"></div>
-
 
 ## Introduce
 
